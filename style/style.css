@@ -1,0 +1,53 @@
+body
+{
+    text-align: center;
+}
+
+.container
+{
+    position: relative;
+
+    width: 700px;
+}
+
+#game-btn
+{
+    position: absolute;
+
+    border-radius: 100%;
+    border: none;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+
+    left: 50%;
+    bottom: 20px;
+
+    z-index: 1;
+}
+
+#game-btn:focus { outline:0; }
+
+#game-label
+{
+    position: absolute;
+
+    top: 30px;
+    left: 50%;
+
+    color: white;
+
+    z-index: 1;
+}
+
+#level-label
+{
+    position: absolute;
+
+    top: 10px;
+    right: 20px;
+
+    color: white;
+
+    z-index: 1;
+}
